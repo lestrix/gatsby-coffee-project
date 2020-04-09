@@ -9,10 +9,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Hi people</h1>
-    <p>Welcome to your new toiletshop site.</p>
-    <p>Now go build something great.</p>
+    <p>Welcome to our Mondwolke Online Shop!.</p>
+    <p>Go grab some nice Tees now!.</p>
     <p>
-      TEST <FaGulp />
+      <FaGulp />
     </p>
   </Layout>
 )
