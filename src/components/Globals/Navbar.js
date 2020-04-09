@@ -45,13 +45,6 @@ export default class Navbar extends Component {
             height="100px"
             width="auto"
           />
-          <img
-            src={logo2}
-            alt="logo"
-            className="logo"
-            height="100px"
-            width="auto"
-          />
         </Link>
         <button
           className="navbar-toggler"
@@ -72,12 +65,9 @@ export default class Navbar extends Component {
               )
             })}
             <li className="nav-item ml-sm-5">
-              <FaCartArrowDown className="cart-icon" />
               <FiShoppingCart className="cart-icon" />
               <GiPhone className="cart-icon" />
-              <GiPhone className="cart-icon2" />
               <GoMail className="cart-icon" />
-              <GoMail className="cart-icon2" />
             </li>
           </ul>
         </div>
