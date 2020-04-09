@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="37px" height="56px" viewBox="0 0 37 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="359px" height="213px" viewBox="0 0 359 213" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
     <title>Group</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="28.1507353" y="11.4253394" width="2.84926471" height="38.5746606" rx="1.42463235"></rect>
-    </defs>
+    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(6.000000, 6.000000)">
-            <ellipse id="Oval" stroke="#4A4A4A" stroke-width="11.3122172" cx="12.6507353" cy="12.5565611" rx="12.6507353" ry="12.5565611"></ellipse>
-            <g id="Rectangle">
-                <use fill="#4A4A4A" fill-rule="evenodd" xlink:href="#path-1"></use>
-                <rect stroke="#4A4A4A" stroke-width="0.5" x="28.4007353" y="11.6753394" width="2.34926471" height="38.0746606" rx="1.17463235"></rect>
-            </g>
+        <g id="Group" transform="translate(3.000000, 3.000000)">
+            <path d="M56,207 C25.072054,207 0,181.927946 0,151 C0,120.072054 25.072054,95 56,95 C56,64.072054 81.072054,39 112,39 C120.81179,39 129.148223,41.0352418 136.564868,44.6612929 C148.358956,18.3377381 174.787974,0 205.5,0 C247.197499,0 281,33.8025014 281,75.5 C281,77.2094533 280.943188,78.9056374 280.831348,80.5867671 C283.665653,80.1998705 286.559486,80 289.5,80 C324.570082,80 353,108.429918 353,143.5 C353,178.570082 324.570082,207 289.5,207 C289.333182,207 289.166515,206.999357 289,206.998073 L271.687931,207 L195.1288,207 L56,207 Z" id="Combined-Shape" stroke="#979797" stroke-width="6" fill="#FFFFFF"></path>
+            <text id="Mondwolke" font-family="LithosPro-Regular, Lithos Pro" font-size="20" font-weight="normal" fill="#9B9B9B">
+                <tspan x="53" y="202">Mondwolke</tspan>
+            </text>
+            <path d="M216.987878,29.5625408 C203.984011,43.2008261 196,61.6680303 196,82 C196,123.973641 230.026359,158 272,158 C283.461804,158 294.330996,155.462721 304.076541,150.919197 C289.909891,175.473606 263.384919,192 233,192 C187.712651,192 151,155.287349 151,110 C151,70.1921688 179.366057,37.0095851 216.987878,29.5625408 Z" id="Combined-Shape" stroke="#979797" stroke-width="5" fill="#FFECA5"></path>
         </g>
     </g>
 </svg>

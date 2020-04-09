@@ -3,6 +3,9 @@ import { Link } from "gatsby"
 import logo from "../../images/logo.svg"
 // LATER GRAPHQL instead of simplest import logo
 import { FaCartArrowDown } from "react-icons/fa"
+import { FiShoppingCart } from "react-icons/fi"
+import { GiPhone } from "react-icons/gi"
+import { GoMail } from "react-icons/go"
 
 export default class Navbar extends Component {
   state = {
@@ -34,7 +37,7 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-sm bg-light navbar-light">
         <Link to="/" className="navbar-brand">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" className="logo" height="100px" />
         </Link>
         <button
           className="navbar-toggler"
@@ -56,6 +59,11 @@ export default class Navbar extends Component {
             })}
             <li className="nav-item ml-sm-5">
               <FaCartArrowDown className="cart-icon" />
+              <FiShoppingCart className="cart-icon" />
+              <GiPhone className="cart-icon" />
+              <GiPhone className="cart-icon2" />
+              <GoMail className="cart-icon" />
+              <GoMail className="cart-icon2" />
             </li>
           </ul>
         </div>
