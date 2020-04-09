@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 import logo from "../../images/logo.svg"
+import logo2 from "../../images/logo2.svg"
 // LATER GRAPHQL instead of simplest import logo
 import { FaCartArrowDown } from "react-icons/fa"
 import { FiShoppingCart } from "react-icons/fi"
@@ -37,7 +38,20 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-sm bg-light navbar-light">
         <Link to="/" className="navbar-brand">
-          <img src={logo} alt="logo" className="logo" height="100px" />
+          <img
+            src={logo}
+            alt="logo"
+            className="logo"
+            height="100px"
+            width="auto"
+          />
+          <img
+            src={logo2}
+            alt="logo"
+            className="logo"
+            height="100px"
+            width="auto"
+          />
         </Link>
         <button
           className="navbar-toggler"

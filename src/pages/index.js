@@ -8,7 +8,7 @@ import { FaGulp } from "react-icons/fa"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
+    <h1>Herzlichen Willkommen</h1>
     <p>Welcome to our Mondwolke Online Shop!.</p>
     <p>Go grab some nice Tees now!.</p>
     <p>
