@@ -30,8 +30,10 @@ module.exports = {
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
-        custom: {
-          families: ["MontserratAlternates, MontserratAlternatesSemiBold"],
+        google: {
+          families: [
+            "MontserratAlternates, MontserratAlternatesSemiBold, Montserrat Alternates",
+          ],
           urls: ["/fonts/fonts.css"],
         },
       },

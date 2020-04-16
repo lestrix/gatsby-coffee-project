@@ -10,9 +10,7 @@
 
 .logo {
   font-size: 1rem;
-  font-family: "MontserratAlternates", "Montserrat Alternates",
-    MontserratAlternatesSemiBold, "MontserratAlternatesSemiBold",
-    "MontserratAlternatesSemiBold" sans-serif;
+  font-family: "Montserrat Alternates", Courier, ;
   color: #9b9b9b;
   letter-spacing: 1px;
   font-style: italic;
@@ -21,7 +19,10 @@
 body {
   background: var(--mainWhite);
   color: var(--mainDark);
-  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  font-family: "Montserrat Alternates", Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif !important;
 }
 
 h1,
@@ -30,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Courier New", Courier, monospace !important;
+  font-family: "Montserrat Alternates", 'Courier New', Courier, monospace !important;
   letter-spacing: 0.25rem !important;
 }
 
