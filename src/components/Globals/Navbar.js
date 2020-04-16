@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import logo from "../../images/logo.svg"
-import logo2 from "../../images/logo2.svg"
+import logo from "../../images/logo.png"
+
 // LATER GRAPHQL instead of simplest import logo
 import { FaCartArrowDown } from "react-icons/fa"
 import { FiShoppingCart } from "react-icons/fi"
