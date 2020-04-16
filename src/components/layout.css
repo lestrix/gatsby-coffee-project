@@ -1,5 +1,7 @@
 :root {
-  --mainBlue: rgb(0, 126, 160);
+  --mainBlue3: rgb(0, 126, 160);
+  --mainBlue2: rgb(19, 76, 92);
+  --mainBlue: rgb(120, 199, 232);
   --mainBrown: #2d1e1f;
   --mainYellow: rgb(255, 158, 9);
   --mainGrey: #ece8dc;
@@ -67,16 +69,25 @@ h6 {
   min-height: 60vh;
 }
 
+.nav-hover,
 .btn-blue {
   color: var(--mainBlue);
   border-color: var(--mainBlue);
 }
 
+.nav-hover:hover,
 .btn-blue:hover {
   background: var(--mainBlue);
   color: var(--mainGrey);
+  border-radius: 5px;
 }
+
+
 
 .footer {
   background: var(--mainBlue);
+}
+
+.menu {
+  background: var(--mainGrey)
 }
