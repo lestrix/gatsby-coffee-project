@@ -16,7 +16,7 @@ export default class Menu extends Component {
       return (
         <section className="menu py-5">
           <div className="container">
-            <Title title="best of our menu" />
+            <Title title="best rated items" />
             {/* categories */}
             {/* items */}
             <div className="row">
