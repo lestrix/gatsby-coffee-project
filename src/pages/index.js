@@ -1,20 +1,35 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { FaGulp } from "react-icons/fa"
+import BackgroundSection from "../components/Globals/BackgroundSection"
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <BackgroundSection
+      img={data.img.childImageSharp.fluid}
+      title="Mondwolke"
+      styleClass="default-background"
+    />
     <h1>Herzlichen Willkommen</h1>
-    <p>Welcome to our Mondwolke Online Shop!.</p>
-    <p>Go grab some nice Tees now!.</p>
-    <p>
-      <FaGulp />
-    </p>
+    <p>im Online Shop von Mondwolke!</p>
+    <p>Komm doch rein, sieh dich um und bleib eine Weile!</p>
+    <p>Wir freuen uns... :)</p>
   </Layout>
 )
+
+export const query = graphql`
+  {
+    img: file(relativePath: { eq: "default-background.jpeg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage
