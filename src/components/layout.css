@@ -92,3 +92,7 @@ h6 {
 .contact {
   background: var(--mainGrey)
 }
+
+.price-yel {
+  color: var(--mainYellow);
+}

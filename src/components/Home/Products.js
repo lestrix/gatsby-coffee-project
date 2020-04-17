@@ -5,10 +5,11 @@ import { StaticQuery, graphql } from "gatsby"
 
 const getProducts = graphql`
   {
-    products: allContentfulShirtItem {
+    products: allContentfulShirtProduct {
       edges {
         node {
           id
+          price
           title
           image {
             fluid(maxHeight: 426) {
