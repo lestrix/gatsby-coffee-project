@@ -82,6 +82,16 @@ h6 {
   border-radius: 5px;
 }
 
+.btn-yellow {
+  color: var(--mainYellow);
+  border-color: var(--mainYellow);
+}
+
+.btn-yellow:hover {
+  background: var(--mainYellow);
+  color: var(--mainGrey);
+  border-radius: 5px;
+}
 
 
 .footer {
