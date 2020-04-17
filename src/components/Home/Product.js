@@ -13,7 +13,7 @@ export default function Product({ product }) {
             className="btn btn-blue mt-3 text-capitalize snipcart-add-item"
             data-item-id={product.id}
             data-item-price={product.price}
-            data-item-url="https://www.mondwolke.netlify.app/"
+            data-item-url="/"
             data-item-name={product.title}
             data-item-image={product.image.fluid.src}
           >
