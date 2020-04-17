@@ -68,7 +68,7 @@ export default class Navbar extends Component {
               )
             })}
             <li className="nav-item ml-sm-5">
-              <FiShoppingCart className="cart-icon" />
+              <FiShoppingCart className="cart-icon snipcart-checkout" />
               <GiPhone className="cart-icon" />
               <GoMail className="cart-icon" />
             </li>
