@@ -88,6 +88,7 @@ h6 {
   background: var(--mainBlue);
 }
 
-.menu {
+.menu,
+.contact {
   background: var(--mainGrey)
 }
