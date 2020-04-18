@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 import logo from "../../images/logo.png"
+import logo2 from "../../images/logo2.png"
 
 // LATER GRAPHQL instead of simplest import logo
 import { FaCartArrowDown } from "react-icons/fa"
@@ -36,7 +37,7 @@ export default class Navbar extends Component {
   }
   render() {
     return (
-      <nav className="navbar navbar-expand-sm bg-light navbar-light">
+      <nav className="navbar navbar-expand-sm bg-light navbar-light nav-custom">
         <Link to="/" className="navbar-brand">
           <img
             src={logo}
@@ -74,6 +75,16 @@ export default class Navbar extends Component {
             </li>
           </ul>
         </div>
+
+        <Link to="/" className="navbar-brand">
+          <img
+            src={logo2}
+            alt="logo2"
+            className="logo"
+            height="100px"
+            width="auto"
+          />
+        </Link>
       </nav>
     )
   }

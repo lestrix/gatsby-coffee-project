@@ -4,7 +4,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Mondwolke`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Unsere Mondwolke Website mit lifestyle Shop.`,
     author: `@JohnLesterKortmann&DesireeSchwertfeger`,
   },
   plugins: [
@@ -45,15 +45,16 @@ module.exports = {
         icon: `src/images/logo.svg`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-offline`,
     {
-      resolve: "gatsby-plugin-web-font-loader",
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        google: {
-          families: [
-            "MontserratAlternates, MontserratAlternatesSemiBold, Montserrat Alternates",
-          ],
-          urls: ["/fonts/fonts.css"],
-        },
+        fonts: [
+          {
+            family: `Montserrat Alternates`,
+            variants: [`300`, `400`, `900`],
+          },
+        ],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

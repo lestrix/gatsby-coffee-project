@@ -3,8 +3,9 @@
   --mainBlue2: rgb(19, 76, 92);
   --mainBlue: rgb(120, 199, 232);
   --mainBrown: #2d1e1f;
-  --mainYellow: rgb(255, 158, 9);
-  --mainGrey: #ece8dc;
+  --mainYellowmain: rgb(255, 158, 9);
+  --mainYellow: rgb(120, 199, 232);
+  --mainGrey: rgb(235, 229, 218);
   --mainWhite: #fff;
   --mainDark: #222;
   /* can also setup colors in other sections */
@@ -12,7 +13,7 @@
 
 .logo {
   font-size: 1rem;
-  font-family: "Montserrat Alternates", Courier, ;
+  font-family: "Montserrat Alternates", Courier;
   color: #9b9b9b;
   letter-spacing: 1px;
   font-style: italic;
@@ -21,10 +22,7 @@
 body {
   background: var(--mainWhite);
   color: var(--mainDark);
-  font-family: "Montserrat Alternates", Verdana,
-    Geneva,
-    Tahoma,
-    sans-serif !important;
+  font-family: "Montserrat Alternates", Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
 h1,
@@ -33,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat Alternates", 'Courier New', Courier, monospace !important;
+  font-family: "Montserrat Alternates", "Courier New", Courier, monospace !important;
   letter-spacing: 0.25rem !important;
 }
 
@@ -41,6 +39,7 @@ h6 {
   color: var(--mainYellow);
 }
 
+.cart-icon:hover,
 .cart-icon {
   cursor: pointer;
   color: var(--mainBlue);
@@ -48,10 +47,8 @@ h6 {
   margin-left: 2rem;
 }
 
-.cart-icon2 {
-  cursor: pointer;
-  color: var(--mainYellow);
-  font-size: 2rem;
+.cart-icon:hover {
+  color: var(--mainYellowmain);
 }
 
 .default-background,
@@ -60,7 +57,10 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0, 126, 160, 0.5), rgba(0, 126, 160, 0.5));
+  background: linear-gradient(
+    rgba(120, 199, 232, 0.5),
+    rgba(120, 199, 232, 0.5)
+  );
   background-position: center;
   background-size: cover;
 }
@@ -78,21 +78,26 @@ h6 {
 .nav-hover:hover,
 .btn-blue:hover {
   background: var(--mainBlue);
-  color: var(--mainGrey);
+  color: var(--mainDark);
   border-radius: 5px;
 }
-
+/*  ||    CATEGORY BUTTONS  ||   */
+/*  ||   < < < Start > > >  ||   */
 .btn-yellow {
-  color: var(--mainYellow);
-  border-color: var(--mainYellow);
+  color: var(--mainYellowmain);
+  border-color: var(--mainYellowmain);
 }
 
 .btn-yellow:hover {
-  background: var(--mainYellow);
+  background: var(--mainYellowmain);
   color: var(--mainGrey);
-  border-radius: 5px;
+  border-radius: 14px;
 }
+/*  ||   < < < EMD > > >  ||   */
 
+.nav {
+  background-color: var(--mainBlue);
+}
 
 .footer {
   background: var(--mainBlue);
@@ -100,7 +105,7 @@ h6 {
 
 .menu,
 .contact {
-  background: var(--mainGrey)
+  background: var(--mainGrey);
 }
 
 .price-yel {
