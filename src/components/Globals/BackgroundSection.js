@@ -8,7 +8,7 @@ export default function BackgroundSection({
 }) {
   return (
     <BackgroundImage className={styleClass} fluid={img}>
-      <h1 className="title text-white text-uppercase text-center display-4 font-weight-semibold shadow-lg p-3 mb-5 rounded">
+      <h1 className="title text-white text-uppercase text-center display-4 font-weight-semibold shadow p-1 mb-1 ">
         {title}
       </h1>
       {children}
